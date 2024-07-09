@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication And Todo Management</title>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        #container div{
+            border: 1px solid;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="username" id="username">
+    <input type="password" placeholder="password" id="password">
+    <button id="login">Login</button>
+    <div id="container"></div>
+    <script src="main.js"></script>
+</body>
+</html>
